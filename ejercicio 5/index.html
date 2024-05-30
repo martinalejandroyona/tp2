@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de área</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <form id="formulario">
+            <label for="ladoA">Lado A</label>
+            <input type="number" step="any" min="1" name="ladoA">
+            <label for="ladoB">Lado B</label>
+            <input type="number" min="1" step="any" name="ladoB">
+            <label for="ladoC">Lado C</label>
+            <input type="number" step="any" name="ladoC" min="1" >
+
+            <button type="submit">Calcular</button>
+        </form>
+        <h2 id="resultado">El area de la figura es: </h2>
+    </div>
+</body>
+</html>
